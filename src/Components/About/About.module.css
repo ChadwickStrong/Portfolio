@@ -30,14 +30,15 @@
     margin: 2rem;
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .aboutContent{
         display: block;
+        width:100%
     }
 
     .aboutContent img {
-        width:100%;
-        margin: auto;
+        width:50%;
+        margin: 0 25%;
     }
 
     .aboutContent p{
