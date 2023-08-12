@@ -5,10 +5,14 @@
     background-color: #424852;
 }
 
-a{
+.social{
     margin: 1rem;
 }
 
-a:hover{
+.social a{
+    padding:10px;
+}
+
+.social a:hover{
     opacity: .8;
 }
