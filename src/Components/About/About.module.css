@@ -29,3 +29,18 @@
     font-family: 'Poppins', sans-serif;
     margin: 2rem;
 }
+
+@media (max-width:768px) {
+    .aboutContent{
+        display: block;
+    }
+
+    .aboutContent img {
+        width:100%;
+        margin: auto;
+    }
+
+    .aboutContent p{
+        margin:0px;
+    }
+}
