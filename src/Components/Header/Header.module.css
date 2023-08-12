@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.6)), url("../../imgs/pexels-nimit-kansagra-4509131.webp");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.6)), url("../../imgs/pexels-nimit-kansagra-4509131.webp");
+}
+
+h2 {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+@media (max-width:768px) {
+    h2 {
+        font-size:x-large;
+    }
+
+    img {
+        width:30%;
+    }
+
+    .hero{
+        height:400px;
+    }
+}

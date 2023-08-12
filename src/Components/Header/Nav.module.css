@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #424852;
+    height: 100px;
+}
+
+.logo{
+    width: 50%;
+    float:left;
+}
+
+.logo h1{
+    color:white;
+    padding-left: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    width: 50%;
+    float: right;;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style:none;
+    margin-right:2rem;
+}
+
+.menu ul li{
+    padding: 1rem;
+    color:white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .menu ul li{
+        padding:.5rem;
+    }
+
+    .logo h1{
+        font-size: large;
+    }
+}
