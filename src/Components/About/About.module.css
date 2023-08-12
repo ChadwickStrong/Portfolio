@@ -1,0 +1,31 @@
+.about{
+    background-color: #e2dfdf;
+    padding:3rem;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin:0 auto;
+}
+
+.aboutContent h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    margin: 2rem;
+}
+
+
+.aboutContent img {
+    border-radius: 15px;
+}
+
+.aboutContent p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem;
+}
